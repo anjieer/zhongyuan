@@ -1,0 +1,267 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    height:100%;
+    font-size:16px;
+    background:#fff;
+}
+/*头部开始*/
+.header{
+    width:100%;
+    height:80px;
+    /*background:red;*/
+}
+.header-left{
+    height:30px;
+    line-height: 80px;
+    color:#000;
+    font-size:40px;
+    float:left;
+}
+.header-right{
+    width:200px;
+    height:50px;
+    float:right;
+    margin-top:15px;
+    /*background:yellow;*/
+    line-height: 50px;
+    overflow: hidden;
+}
+.header-right-left{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    /*background:green;*/
+    margin-top:5px;
+    float:left;
+}
+.header-right-left img{
+    width:100%;
+    height:auto;
+    color:#ccc;
+}
+.header-right-right{
+    float:left;
+}
+.header-right-right .span1{
+    line-height: 25px;
+    font-size:16px;
+}
+.header-right-right .span2{
+    line-height: 25px;
+    font-size:16px;
+}
+/*导航开始*/
+.nav{
+    width:100%;
+    height:40px;
+    background:#ea6fa2;
+}
+.nav ul li{
+     width:10%;
+     float:left;
+     line-height: 40px;
+     text-align: center;
+     color:#fcd7ba;
+     font-size:14px;
+ }
+.nav ul li a{
+    color:#fcd7ba;
+    font-size:14px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color:#fff;
+}
+ul li{
+    list-style-type: none;
+}
+/*图片轮播开始*/
+.swiper-slide img{
+    width:100%;
+    height:auto;
+    /*border:1px solid red;*/
+}
+/*===========================================================================================*/
+/*当前位置开始*/
+.local{
+    width:100%;
+    height:24px;
+    background:#e3e2e2;
+    margin-top:-4px;
+    color:#000;
+    font-size:14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.local-left{
+    float:left;
+    line-height: 24px;
+}
+.local-left span{
+    color:#e00a0a;
+    line-height: 24px;
+}
+.local-right{
+    float:right;
+    line-height: 24px;
+}
+/*整形项目开始*/
+.project{
+    width:100%;
+    height:40px;
+    background:#ea6fa2;
+    margin-top:15px;
+    line-height: 40px;
+}
+.project span{
+    margin-left:18%;
+    color:#fff;
+    font-size:14px;
+}
+
+.img{
+    width:70%;
+    height:auto;
+    background:#eeeeee;
+    margin:auto;
+}
+.img-top{
+    width:100%;
+    height:auto;
+    background:#eee;
+    overflow: hidden;;
+}
+.img-top-con{
+    width:90%;
+    margin: 17px auto 10px auto;
+    background:red;
+}
+.img-top-con-left{
+     width:32%;
+     height:auto;
+     float:left;
+     /*background:green;*/
+ }
+.img-top-con-left a{
+  text-decoration: none;
+}
+.img-top-con-top{
+    width:100%;
+    border-radius: 4px;
+    background:#ff99c7;
+}
+.img-top-con-top-top{
+    width:98%;
+    height:auto;
+    background:#ff99c7;
+    margin:auto;
+}
+.img-top-con-top-top img{
+    max-width:100%;
+    margin-top:3px;
+}
+
+
+.img-top-con-top-down{
+    text-align: center;
+    color:#fff;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:14px;
+}
+.img-top-con-down{
+    width:100%;
+    background:#ff99c7;
+    margin-top:10px;
+    border-radius: 4px;
+}
+.img-top-con-down-top{
+    width:98%;
+    height:auto;
+    background:#ff99c7;
+    margin:auto;
+}
+.img-top-con-down-top img{
+    max-width:100%;
+    margin-top:3px;
+}
+.lefts{
+    margin-left:2%;
+}
+/*上下页切换*/
+.cut{
+    width:70%;
+    height:30px;
+    background:#eeeeee;
+    margin:10px auto;
+    border-radius: 4px;
+}
+.cut-con{
+    width:15%;
+    height:30px;
+    float:right;
+}
+.cut-left{
+    width:40%;
+    height:20px;
+    padding:2px 3px;
+    border-radius: 14px;
+    background:#ff99c7;
+    color:#fff;
+    margin-top:3px;
+    text-align: center;
+    line-height: 20px;
+    font-size:12px;
+    float:left;
+}
+.cut-right{
+    width:40%;
+    height:20px;
+    padding:2px 3px;
+    border-radius: 14px;
+    background:#ff99c7;
+    color:#fff;
+    margin-top:3px;
+    text-align: center;
+    line-height: 20px;
+    font-size:12px;
+    float:right;
+}
+/*底部二维码开始*/
+.last{
+    width:100%;
+    height:150px;
+    margin-top:25px;
+    margin-bottom:15px;
+    background:#ffdfed;
+    overflow: hidden;;
+}
+.last-con{
+    width:70%;
+    height:110px;
+    margin:20px auto 10px auto;
+    /*background:green;*/
+}
+.last-left{
+    width:auto;
+    float:left;
+}
+.last-left h6{
+    color:#000;
+    font-size:12px;
+}
+.last-left h6 input{
+    color:#000;
+    font-size:12px;
+    border:none;
+    outline:none;
+}
+.last-right{
+    float:right;
+    width:100px;
+    height:100px;
+    background:green;
+}

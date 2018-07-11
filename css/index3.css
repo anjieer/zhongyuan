@@ -1,0 +1,282 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    height:100%;
+    font-size:16px;
+    background:#fff;
+}
+/*头部开始*/
+.header{
+    width:100%;
+    height:80px;
+    /*background:red;*/
+}
+.header-left{
+    height:30px;
+    line-height: 80px;
+    color:#000;
+    font-size:40px;
+    float:left;
+}
+.header-right{
+    width:200px;
+    height:50px;
+    float:right;
+    margin-top:15px;
+    /*background:yellow;*/
+    line-height: 50px;
+    overflow: hidden;
+}
+.header-right-left{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    /*background:green;*/
+    margin-top:5px;
+    float:left;
+}
+.header-right-left img{
+    width:100%;
+    height:auto;
+    color:#ccc;
+}
+.header-right-right{
+    float:left;
+}
+.header-right-right .span1{
+    line-height: 25px;
+    font-size:16px;
+}
+.header-right-right .span2{
+    line-height: 25px;
+    font-size:16px;
+}
+/*导航开始*/
+.nav{
+    width:100%;
+    height:40px;
+    background:#ea6fa2;
+}
+.nav ul li{
+    width:10%;
+    float:left;
+    line-height: 40px;
+    text-align: center;
+    color:#fcd7ba;
+    font-size:14px;
+}
+.nav ul li a{
+    color:#fcd7ba;
+    font-size:14px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color:#fff;
+}
+ul li{
+    list-style-type: none;
+}
+/*图片轮播开始*/
+.swiper-slide img{
+    width:100%;
+    height:auto;
+    /*border:1px solid red;*/
+}
+/*===========================================================================================*/
+/*当前位置开始*/
+.local{
+    width:100%;
+    height:24px;
+    background:#e3e2e2;
+    margin-top:-4px;
+    color:#000;
+    font-size:14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.local-left{
+    float:left;
+    line-height: 24px;
+}
+.local-left span{
+    color:#e00a0a;
+    line-height: 24px;
+}
+.local-right{
+    float:right;
+    line-height: 24px;
+}
+/*整形项目开始*/
+.item{
+    width:100%;
+    height:40px;
+    background:#ea70a3;
+    margin-top:15px;
+}
+.item-con{
+    width:62%;
+    height:40px;
+    margin:auto;
+    padding-left:5%;
+    line-height: 40px;
+    color:#fff;
+    font-size:16px;
+}
+/*具体介绍开始*/
+.present{
+    width:60%;
+    /*height:100%;*/
+    height:auto;
+    background:#ccc;
+    margin:auto;
+    overflow: hidden;
+}
+.present-title{
+    width:100%;
+    height:auto;
+    background:#fdbbdf;
+    text-align: center;
+    color:#fff;
+    font-size:18px;
+    margin-top:15px;
+}
+.present-title span{
+    float:left;
+    margin-left:10%;
+    border-radius: 4px;
+    background:#fdbbdf;
+    padding:10px 2% 10px 2%;
+}
+.present-con{
+    width:95%;
+    /*height:70%;*/
+    border-radius: 4px;
+    background:#fedfef;
+    margin:auto;
+    overflow: hidden;
+}
+.present-top{
+    /*width:100%;*/
+    width:100%;
+    margin:auto;
+    margin-top:35px;
+    /*height:50%;*/
+    background:#fdb8d7;
+    overflow: hidden;
+}
+.present-top-con{
+    max-width:95%;
+    /*height:95%;*/
+    margin:10px auto 0 auto;
+    background:green;
+}
+.present-top-con-left{
+    width:42%;
+    height:auto;
+    margin-left:3%;
+    float:left;
+    /*background:blue;*/
+}
+.present-top-left-top{
+    width:100%;
+    /*height:90%;*/
+}
+.present-top-left-top img{
+    max-width:100%;
+    float:left;
+    margin-bottom:3%;
+}
+.present-top-left-down{
+    text-align: center;
+    color:#fff;
+    font-size:16px;
+    /*margin-top:5px;*/
+    margin-bottom:3%;
+}
+
+.present-top-con-right{
+    width:42%;
+    height:auto;
+    margin-right:3%;
+    float:right;
+    /*background:blue;*/
+}
+.present-top-right-top{
+    width:100%;
+    /*height:90%;*/
+}
+.present-top-right-top img{
+    max-width:100%;
+    float:right;
+    margin-bottom:3%;
+}
+.present-top-right-down{
+    text-align: center;
+    color:#fff;
+    font-size:16px;
+    margin-bottom:3%;
+    /*margin-top:5px;*/
+}
+.present-down{
+    width:100%;
+    /*height:50%;*/
+    /*background:blue;*/
+    overflow: hidden;
+}
+.present-down-con{
+    width:98%;
+    /*height:90%;*/
+    margin:auto;
+    /*background:orange;*/
+}
+.present-down-con-left{
+    height:100%;
+    width:48%;
+    float:left;
+    margin-left:1%;
+}
+.present-down-con-left img{
+    max-width:100%;
+    margin-top:15px;
+    margin-bottom:40px;
+}
+.present-down-con-right{
+    height:100%;
+    width:48%;
+    float:right;
+    margin-right:1%;
+}
+.present-down-con-right img{
+    max-width:100%;
+    margin-top:15px;
+    margin-bottom:40px;
+}
+/*手术介绍开始*/
+.ops{
+    width:95%;
+    height:30%;
+    background:#fff;
+    margin: 15px auto;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.ops-con{
+    width:90%;
+    height:65%;
+    line-height: 20px;
+    /*background:red;*/
+    margin:2% auto;
+}
+.ops-con h4{
+    text-indent:15px;
+    margin-top:30px;
+    font-weight: 900;
+    color:#000;
+    font-size:16px;
+}
+.ops-con h6{
+    color:#333;
+    font-size:12px;
+}
